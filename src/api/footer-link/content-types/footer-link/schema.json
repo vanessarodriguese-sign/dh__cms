@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footer_links",
+  "info": {
+    "singularName": "footer-link",
+    "pluralName": "footer-links",
+    "displayName": "FooterLinks"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ITEM1": {
+      "type": "string"
+    },
+    "ITEM1Url": {
+      "type": "string"
+    },
+    "ITEM2": {
+      "type": "string"
+    },
+    "ITEM2Url": {
+      "type": "string"
+    },
+    "ITEM3": {
+      "type": "string"
+    },
+    "ITEM3Url": {
+      "type": "string"
+    },
+    "ITEM4": {
+      "type": "string"
+    },
+    "ITEM4Url": {
+      "type": "string"
+    },
+    "ITEM5": {
+      "type": "string"
+    },
+    "ITEM5Url": {
+      "type": "string"
+    }
+  }
+}

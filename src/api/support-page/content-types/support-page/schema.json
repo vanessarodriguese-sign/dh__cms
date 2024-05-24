@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "support_pages",
+  "info": {
+    "singularName": "support-page",
+    "pluralName": "support-pages",
+    "displayName": "supportPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "support-page.banner"
+    },
+    "Changelog": {
+      "type": "component",
+      "repeatable": true,
+      "component": "support-page.changelog"
+    },
+    "ContactUs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "support-page.contact-us"
+    },
+    "QuestionsSession": {
+      "type": "component",
+      "repeatable": true,
+      "component": "support-page.questions-session"
+    }
+  }
+}

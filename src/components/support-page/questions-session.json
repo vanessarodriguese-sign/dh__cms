@@ -1,0 +1,73 @@
+{
+  "collectionName": "components_support_page_questions_sessions",
+  "info": {
+    "displayName": "QuestionsSession",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "button1": {
+      "type": "string"
+    },
+    "buttonUrl1": {
+      "type": "string"
+    },
+    "button2": {
+      "type": "string"
+    },
+    "buttonUrl2": {
+      "type": "string"
+    },
+    "button3": {
+      "type": "string"
+    },
+    "buttonUrl3": {
+      "type": "string"
+    },
+    "question1": {
+      "type": "string"
+    },
+    "answer1": {
+      "type": "string"
+    },
+    "question2": {
+      "type": "string"
+    },
+    "answer2": {
+      "type": "string"
+    },
+    "question3": {
+      "type": "string"
+    },
+    "answer3": {
+      "type": "string"
+    },
+    "question4": {
+      "type": "string"
+    },
+    "answer4": {
+      "type": "string"
+    },
+    "question5": {
+      "type": "string"
+    },
+    "answer5": {
+      "type": "string"
+    },
+    "question6": {
+      "type": "string"
+    },
+    "answer6": {
+      "type": "string"
+    },
+    "question7": {
+      "type": "string"
+    },
+    "answer7": {
+      "type": "string"
+    }
+  }
+}

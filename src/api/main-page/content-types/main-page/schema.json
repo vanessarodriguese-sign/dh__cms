@@ -1,0 +1,76 @@
+{
+  "kind": "collectionType",
+  "collectionName": "main_pages",
+  "info": {
+    "singularName": "main-page",
+    "pluralName": "main-pages",
+    "displayName": "MainPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bannerTitle": {
+      "type": "string"
+    },
+    "bannerSubtitle": {
+      "type": "string"
+    },
+    "bannerUrl": {
+      "type": "string"
+    },
+    "buttonBanner": {
+      "type": "string"
+    },
+    "firstSlideUrl": {
+      "type": "string"
+    },
+    "firstSlideTitle": {
+      "type": "string"
+    },
+    "firstSlideSubTitle": {
+      "type": "string"
+    },
+    "secondSlideUrl": {
+      "type": "string"
+    },
+    "secondSlideTitle": {
+      "type": "string"
+    },
+    "secondSlideSubtitle": {
+      "type": "string"
+    },
+    "LOGO1": {
+      "type": "string"
+    },
+    "LOGO2": {
+      "type": "string"
+    },
+    "LOGO3": {
+      "type": "string"
+    },
+    "LOGO4": {
+      "type": "string"
+    },
+    "LOGO5": {
+      "type": "string"
+    },
+    "LOGO6": {
+      "type": "string"
+    },
+    "LOGO7": {
+      "type": "string"
+    },
+    "thirdSlideTitle": {
+      "type": "string"
+    },
+    "thirdSlideSubtitle": {
+      "type": "string"
+    },
+    "thirdSlideUrl": {
+      "type": "string"
+    }
+  }
+}

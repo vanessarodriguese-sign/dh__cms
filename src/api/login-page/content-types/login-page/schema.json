@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "login_pages",
+  "info": {
+    "singularName": "login-page",
+    "pluralName": "login-pages",
+    "displayName": "LoginPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "field1": {
+      "type": "string"
+    },
+    "field2": {
+      "type": "string"
+    },
+    "forgottenPasswordText": {
+      "type": "string"
+    },
+    "forgottenPasswordUrl": {
+      "type": "string"
+    },
+    "button": {
+      "type": "string"
+    },
+    "text1": {
+      "type": "string"
+    },
+    "text2": {
+      "type": "string"
+    },
+    "text2Url": {
+      "type": "string"
+    },
+    "text3": {
+      "type": "string"
+    },
+    "text3Url": {
+      "type": "string"
+    }
+  }
+}

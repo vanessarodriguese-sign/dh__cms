@@ -1,0 +1,73 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nav_bars",
+  "info": {
+    "singularName": "nav-bar",
+    "pluralName": "nav-bars",
+    "displayName": "NavBar",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "string"
+    },
+    "ITEM1": {
+      "type": "string"
+    },
+    "ITEM2": {
+      "type": "string"
+    },
+    "ITEM3": {
+      "type": "string"
+    },
+    "ITEM4": {
+      "type": "string"
+    },
+    "ITEM5": {
+      "type": "string"
+    },
+    "ITEM6": {
+      "type": "string"
+    },
+    "loginButton": {
+      "type": "string"
+    },
+    "contactButton": {
+      "type": "string"
+    },
+    "ITEM1Url": {
+      "type": "string"
+    },
+    "ITEM2Url": {
+      "type": "string"
+    },
+    "ITEM3Url": {
+      "type": "string"
+    },
+    "ITEM4Url": {
+      "type": "string"
+    },
+    "ITEM5Url": {
+      "type": "string"
+    },
+    "ITEM6Url": {
+      "type": "string"
+    },
+    "loginButtonUrl": {
+      "type": "string"
+    },
+    "contactButtonUrl": {
+      "type": "string"
+    },
+    "logoutButton": {
+      "type": "string"
+    },
+    "logoutButtonUrl": {
+      "type": "string"
+    }
+  }
+}

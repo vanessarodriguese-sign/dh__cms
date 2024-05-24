@@ -1,0 +1,109 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "string"
+    },
+    "location1": {
+      "type": "string"
+    },
+    "ukAdress1": {
+      "type": "string"
+    },
+    "ukAdress3": {
+      "type": "string"
+    },
+    "ukAdress4": {
+      "type": "string"
+    },
+    "ukAdress2": {
+      "type": "string"
+    },
+    "ukAdress5": {
+      "type": "string"
+    },
+    "location2": {
+      "type": "string"
+    },
+    "iomAdress1": {
+      "type": "string"
+    },
+    "iomAdress2": {
+      "type": "string"
+    },
+    "iomAdress3": {
+      "type": "string"
+    },
+    "iomAdress4": {
+      "type": "string"
+    },
+    "location3": {
+      "type": "string"
+    },
+    "euAdress1": {
+      "type": "string"
+    },
+    "euAdress2": {
+      "type": "string"
+    },
+    "euAdress3": {
+      "type": "string"
+    },
+    "euAdress4": {
+      "type": "string"
+    },
+    "location4": {
+      "type": "string"
+    },
+    "usAdress1": {
+      "type": "string"
+    },
+    "usAdress2": {
+      "type": "string"
+    },
+    "usAdress3": {
+      "type": "string"
+    },
+    "usAdress4": {
+      "type": "string"
+    },
+    "iomAdress5": {
+      "type": "string"
+    },
+    "termsOfUse": {
+      "type": "string"
+    },
+    "copyright": {
+      "type": "string"
+    },
+    "facebookLogo": {
+      "type": "string"
+    },
+    "facebookUrl": {
+      "type": "string"
+    },
+    "xLogo": {
+      "type": "string"
+    },
+    "xUrl": {
+      "type": "string"
+    },
+    "instagramLogo": {
+      "type": "string"
+    },
+    "instagramUrl": {
+      "type": "string"
+    }
+  }
+}

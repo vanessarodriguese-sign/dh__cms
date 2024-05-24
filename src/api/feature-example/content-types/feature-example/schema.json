@@ -1,0 +1,70 @@
+{
+  "kind": "collectionType",
+  "collectionName": "feature_examples",
+  "info": {
+    "singularName": "feature-example",
+    "pluralName": "feature-examples",
+    "displayName": "FeatureExample",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "card1Title": {
+      "type": "string"
+    },
+    "card1Image": {
+      "type": "string"
+    },
+    "card1Subtitle": {
+      "type": "string"
+    },
+    "card1Button": {
+      "type": "string"
+    },
+    "card2Image": {
+      "type": "string"
+    },
+    "card2Title": {
+      "type": "string"
+    },
+    "card2Description": {
+      "type": "string"
+    },
+    "card2Button": {
+      "type": "string"
+    },
+    "card3Image": {
+      "type": "string"
+    },
+    "card3Title": {
+      "type": "string"
+    },
+    "card3Description": {
+      "type": "string"
+    },
+    "card3Button": {
+      "type": "string"
+    },
+    "card1ButtonURL": {
+      "type": "string"
+    },
+    "card2ButtonURL": {
+      "type": "string"
+    },
+    "card3ButtonURL": {
+      "type": "string"
+    },
+    "card1Description": {
+      "type": "string"
+    }
+  }
+}

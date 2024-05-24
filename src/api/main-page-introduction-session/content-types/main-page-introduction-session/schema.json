@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "main_page_introduction_sessions",
+  "info": {
+    "singularName": "main-page-introduction-session",
+    "pluralName": "main-page-introduction-sessions",
+    "displayName": "MainPageIntroductionSession",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "descriptionTop": {
+      "type": "text"
+    },
+    "ITEM1": {
+      "type": "string"
+    },
+    "ITEM2": {
+      "type": "string"
+    },
+    "ITEM3": {
+      "type": "string"
+    },
+    "ITEM4": {
+      "type": "string"
+    },
+    "ITEM5": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "descriptionBottom": {
+      "type": "string"
+    },
+    "buttonGuides": {
+      "type": "string"
+    },
+    "buttonApi": {
+      "type": "string"
+    },
+    "buttonApiURL": {
+      "type": "string"
+    },
+    "buttonGuidesURL": {
+      "type": "string"
+    }
+  }
+}
