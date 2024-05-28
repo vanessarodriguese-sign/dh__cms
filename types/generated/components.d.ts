@@ -60,19 +60,19 @@ export interface SupportPageQuestionsSession extends Schema.Component {
     button3: Attribute.String;
     buttonUrl3: Attribute.String;
     question1: Attribute.String;
-    answer1: Attribute.String;
+    answer1: Attribute.Text;
     question2: Attribute.String;
-    answer2: Attribute.String;
+    answer2: Attribute.Text;
     question3: Attribute.String;
-    answer3: Attribute.String;
+    answer3: Attribute.Text;
     question4: Attribute.String;
-    answer4: Attribute.String;
+    answer4: Attribute.Text;
     question5: Attribute.String;
-    answer5: Attribute.String;
+    answer5: Attribute.Text;
     question6: Attribute.String;
-    answer6: Attribute.String;
+    answer6: Attribute.Text;
     question7: Attribute.String;
-    answer7: Attribute.String;
+    answer7: Attribute.Text;
   };
 }
 
