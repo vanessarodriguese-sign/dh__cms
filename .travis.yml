@@ -1,0 +1,31 @@
+dist: focal   
+language: node_js
+node_js:
+  - "19.9.0"
+
+before_install:
+  - nvm install 19.9.0
+  
+cache:
+  directories:
+    - ~/.npm
+
+install:
+  - npm install
+
+script:
+  - npm run build 
+  - npm start &   
+  - sleep 15      
+
+on:
+push:
+  branches:
+    - main
+
+
+# env:
+#   global:
+#     - NEXT_PUBLIC_CMS_URL=<URL do CMS>
+#     - NEXT_PUBLIC_API_URL=<URL da API>
+
