@@ -1,4 +1,4 @@
-dist: focal   # Use a distribuição Ubuntu 20.04 LTS
+dist: focal   
 language: node_js
 node_js:
   - "19.9.0"
@@ -14,9 +14,9 @@ install:
   - npm install
 
 script:
-  - npm run build # Build your Next.js project
-  - npm start &   # Start your Next.js server in the background
-  - sleep 15      # Wait for the server to start
+  - npm run build 
+  - npm start &   
+  - sleep 15      
 
 on:
 push:
@@ -29,4 +29,3 @@ push:
 #     - NEXT_PUBLIC_CMS_URL=<URL do CMS>
 #     - NEXT_PUBLIC_API_URL=<URL da API>
 
-# Variáveis de ambiente sensíveis podem ser configuradas no painel do Travis CI.
