@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "accreditations",
+  "info": {
+    "singularName": "accreditation",
+    "pluralName": "accreditations",
+    "displayName": "Accreditation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ReviewsSecurity": {
+      "type": "component",
+      "repeatable": true,
+      "component": "accreditation.reviews"
+    },
+    "AccreditationsAwards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "accreditation.accreditations"
+    }
+  }
+}

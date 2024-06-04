@@ -1,5 +1,37 @@
 import type { Schema, Attribute } from '@strapi/strapi';
 
+export interface AccreditationAccreditations extends Schema.Component {
+  collectionName: 'components_accreditation_accreditations';
+  info: {
+    displayName: 'Accreditations&Awards';
+    description: '';
+  };
+  attributes: {
+    image1: Attribute.String;
+    image2: Attribute.String;
+    image3: Attribute.String;
+    image4: Attribute.String;
+    image5: Attribute.String;
+    image6: Attribute.String;
+  };
+}
+
+export interface AccreditationReviews extends Schema.Component {
+  collectionName: 'components_accreditation_reviews';
+  info: {
+    displayName: 'Reviews&Security';
+    description: '';
+  };
+  attributes: {
+    image1: Attribute.String;
+    image2: Attribute.String;
+    image3: Attribute.String;
+    image4: Attribute.String;
+    image5: Attribute.String;
+    image6: Attribute.String;
+  };
+}
+
 export interface SupportPageBanner extends Schema.Component {
   collectionName: 'components_support_page_banners';
   info: {
@@ -79,6 +111,8 @@ export interface SupportPageQuestionsSession extends Schema.Component {
 declare module '@strapi/types' {
   export module Shared {
     export interface Components {
+      'accreditation.accreditations': AccreditationAccreditations;
+      'accreditation.reviews': AccreditationReviews;
       'support-page.banner': SupportPageBanner;
       'support-page.changelog': SupportPageChangelog;
       'support-page.contact-us': SupportPageContactUs;

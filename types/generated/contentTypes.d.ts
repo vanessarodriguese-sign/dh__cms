@@ -788,6 +788,41 @@ export interface PluginUsersPermissionsUser extends Schema.CollectionType {
   };
 }
 
+export interface ApiAccreditationAccreditation extends Schema.CollectionType {
+  collectionName: 'accreditations';
+  info: {
+    singularName: 'accreditation';
+    pluralName: 'accreditations';
+    displayName: 'Accreditation';
+    description: '';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    ReviewsSecurity: Attribute.Component<'accreditation.reviews', true>;
+    AccreditationsAwards: Attribute.Component<
+      'accreditation.accreditations',
+      true
+    >;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::accreditation.accreditation',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::accreditation.accreditation',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
 export interface ApiDropDownMenuDropDownMenu extends Schema.CollectionType {
   collectionName: 'drop_down_menus';
   info: {
@@ -1225,6 +1260,7 @@ declare module '@strapi/types' {
       'plugin::users-permissions.permission': PluginUsersPermissionsPermission;
       'plugin::users-permissions.role': PluginUsersPermissionsRole;
       'plugin::users-permissions.user': PluginUsersPermissionsUser;
+      'api::accreditation.accreditation': ApiAccreditationAccreditation;
       'api::drop-down-menu.drop-down-menu': ApiDropDownMenuDropDownMenu;
       'api::feature-example.feature-example': ApiFeatureExampleFeatureExample;
       'api::footer.footer': ApiFooterFooter;
