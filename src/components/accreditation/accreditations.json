@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_accreditation_accreditations",
+  "info": {
+    "displayName": "Accreditations&Awards",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image1": {
+      "type": "string"
+    },
+    "image2": {
+      "type": "string"
+    },
+    "image3": {
+      "type": "string"
+    },
+    "image4": {
+      "type": "string"
+    },
+    "image5": {
+      "type": "string"
+    },
+    "image6": {
+      "type": "string"
+    }
+  }
+}
